@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 public class Main {
      public static void main(String [] args) throws Exception {
          
@@ -21,3 +22,16 @@ public class Main {
       
      }
 }
+=======
+public class Celular {
+// Atributos
+String marca;
+String modelo;
+int bateria = 100;
+// Metodo (Comportamiento)
+public void llamar(String numero) {
+System.out.println("Llamando al " + numero + "...");
+this.bateria-= 5;
+}
+}
+>>>>>>> origin
